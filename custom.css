@@ -111,7 +111,7 @@
 
 /* sTEPS sTART*/
 .steps {
-    padding: 2.4rem 4.8rem;
+    padding: 0rem 4.8rem;
 }
 
 .steps-header {
@@ -187,3 +187,123 @@
     z-index: -1;
 }
 /* steps ENDING*/
+
+
+/* FEATURE-IN-START*/
+.feature-in-header {
+    text-align: center;
+}
+
+.feature-in-header, 
+.feature-in-description {
+    display: block;
+    color: #999;
+    margin-bottom: 3.2rem;
+    /* */
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.feature-in-images {
+    display: flex;
+    justify-content: space-around;
+}
+.fi-image {
+    height: 3.2rem;
+    filter: brightness(1%);
+    opacity: 50%;
+}
+/* FEATURE-IN-END*/
+
+
+/* Testimonials & Galery START*/
+
+/* Testimonials */
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 4.8rem;
+    column-gap: 3.2rem;
+}
+
+.testimonials-galery {
+    background-color: #fdf2e9;
+}
+
+.testimonials-header {
+    padding-bottom: 3.2rem;
+}
+
+.testimonials-body figure {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.author-img img {
+    max-width: 20%;
+    border-radius: 50%;
+}
+
+.author-testimonial {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 1.2;
+}
+
+.author-info {
+    font-size: 1.4rem;
+    color: #999;
+}
+
+
+/* Galery START*/
+
+.galery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 3.2rem;
+    column-gap: 2.4rem;
+}
+.container-img {
+    overflow: hidden;
+}
+
+.galery img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: all 0.3s;
+}
+.container-img img:hover{
+    transform: scale(1.05);
+}
+/* Testimonials & Galery END*/
+
+/* Meals START*/
+.meals-header{
+    text-align: center;
+}
+.meals-footer {
+    text-align: center;
+}
+.meals-recipes {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #e67e22;
+    letter-spacing: 1.05px;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
+.meals-recipes:hover {
+    border: none;
+    border-bottom: 1px solid transparent;
+}
+.meals-header span {
+    display: block;
+    margin-bottom: 2.4rem;
+}
+
+/* Meals END*/
