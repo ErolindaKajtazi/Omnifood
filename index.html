@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
     <link rel="stylesheet" href="general.css"/>
     <link rel="stylesheet" href="custom.css"/>
     <title>OmniFood</title>
@@ -160,6 +163,114 @@
             </div>
         </section>
 
+        <section class="meals container pt-lg pd-lg">
+            <div class="meals-header">
+                <span class="step-header-description">Meals</span>
+                <h2 class="secondary-header">Omnifood AI chooses from 5,000+ recipes </h2>
+            </div>
+            <div class="meals-body grid grid-3">
+                <div class="meals-recipe first">
+                    <div class="meals-img">
+                        <img src="./content/img/meals/meal-1.jpg" alt="Meal 2">
+                    </div>
+                    <div class="meals-content">
+                        <div class="labels">
+                            <span class="vegetarian">Vegetarian</span>
+                        </div>
+                        <h3 class="ternary-header">Japanese Gyozas</h3>
+                        <div class="meal-details">
+                            <p> 
+                                <ion-icon name="flame-outline"></ion-icon>
+                                <span>
+                                    <strong>650</strong> calories
+                                </span>
+                            </p>
+                            <p> 
+                                <ion-icon name="restaurant-outline"></ion-icon>
+                                <span>
+                                    Nutriscore &reg; ,<strong>74</strong> 
+                                </span>
+                            </p>
+                            <p> 
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>
+                                    <strong>4.9</strong> rating (537)
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="meals-recipe">
+                    <div class="meals-img">
+                        <img src="./content/img/meals/meal-2.jpg" alt="Meal 2">
+                    </div>
+                    <div class="meals-content">
+                        <div class="labels">
+                            <span class="vegan">Vegann</span>
+                            <span class="paleo">Paleo</span>
+                        </div>
+                        <h3 class="ternary-header">Avocado Salad</h3>
+                        <div class="meal-details">
+                            <p> 
+                                <ion-icon name="flame-outline"></ion-icon>
+                                <span>
+                                    <strong>650</strong> calories
+                                </span>
+                            </p>
+                            <p> 
+                                <ion-icon name="restaurant-outline"></ion-icon>
+                                <span>
+                                    Nutriscore &reg; ,<strong>74</strong> 
+                                </span>
+                            </p>
+                            <p> 
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>
+                                    <strong>4.9</strong> rating (537)
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="meals-diet">
+                    <h3 class="ternary-header">Works with any diet:</h3>
+                    <div>
+                        <p><ion-icon name="checkmark-outline"></ion-icon>
+                            <span>Vegetarian</span>
+                        </p>
+                        <p><ion-icon name="checkmark-outline"></ion-icon>
+                            <span>Vegan</span>
+
+                        </p>
+                        <p> <ion-icon name="checkmark-outline"></ion-icon>
+                            <span>Pescatarian</span>
+                        </p>
+                        <p> <ion-icon name="checkmark-outline"></ion-icon>
+                            <span>Gluten-free</span>
+
+                            </p>
+                        <p> <ion-icon name="checkmark-outline"></ion-icon>
+                            <span>Lactose-free</span></p>
+                        <p><ion-icon name="checkmark-outline"></ion-icon>
+                            <span>Keto</span></p>
+                        <p><ion-icon name="checkmark-outline"></ion-icon>
+                            <span>Paleo</span></p>
+                        <p><ion-icon name="checkmark-outline"></ion-icon>
+                            <span>Low FODMAP</span></p>
+                        <p><ion-icon name="checkmark-outline"></ion-icon>
+                            <span>Kid-friendly</span></p> 
+                    </div>
+             
+                                  
+                    
+                    
+                </div>
+            </div>
+            <div class="meals-footer">
+                <a class="meals-recipes" href="#">See all recipes &RightArrow;</a>
+            </div>
+        </section>
+
         <section class="testimonials-galery pt-lg">
             <div class="container grid grid-2 pd-lg pt-lg">
                 <div class="testimonials">
@@ -256,16 +367,7 @@
         </section>
 
 
-        <section class="meals container pt-lg">
-            <div class="meals-header">
-                <span class="step-header-description">Meals</span>
-                <h2 class="secondary-header">Omnifood AI chooses from 5,000+ recipes </h2>
-            </div>
-            <div class="meals-body"></div>
-            <div class="meals-footer">
-                <a class="meals-recipes" href="#">See all recipes &RightArrow;</a>
-            </div>
-        </section>
+
     </main>
 
 </body>
