@@ -9,6 +9,15 @@
     margin: 0;
     padding: 0;
 }
+
+*:focus {
+    outline: none;
+    outline: 2px dotted #a15828;
+    outline-offset: 3px;
+
+    box-shadow: 0 0 0 ;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -83,7 +92,9 @@ strong {
     transition: all 0.3s;
 }
 
-.btn-lg:link {
+
+
+.btn-lg {
     padding: 1.6rem 3.2rem;
     font-size: 1.8rem;
 }
@@ -116,9 +127,9 @@ strong {
 }
 
 .btn-secondary {
-    background-color: white;
+    background-color: #fdf2e9;
     color: #333;
-
+    background-color: white;
 }
 
 .btn-secondary:hover ,
@@ -134,12 +145,16 @@ strong {
 }
 
 .mt-lg {
-    margin-top: 9.6rem;
+    margin-top: 9.6rem !important;
 }
 
-.pd-lg {
+.pb-lg {
     padding-top: 9.6rem !important;
 }
 .pt-lg {
     padding-top: 9.6rem !important;
+}
+
+.cta *:focus {
+    
 }
