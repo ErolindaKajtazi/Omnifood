@@ -12,10 +12,10 @@
 
 *:focus {
     outline: none;
-    outline: 2px dotted #a15828;
-    outline-offset: 3px;
+    /* outline: 2px dotted #a15828;
+    outline-offset: 3px; */
 
-    box-shadow: 0 0 0 ;
+    box-shadow: 0 0 0 3px #a15828;
 }
 
 html {
