@@ -1,4 +1,4 @@
-@media (min-width: 87em) {
+@media (min-width: 75em) {
     .hero-section {
         display: flex;
         justify-content: center;
@@ -8,6 +8,10 @@
         display: flex;
         flex-direction: column;
         align-self: center;
+    }
+
+    .mobile-nav {
+        display: none;
     }
 }
 
@@ -38,7 +42,7 @@
     }
 
     .testimonials-galery .container-grid {
-
+        align-items: center;
     }
 
     .costumers {
@@ -58,7 +62,7 @@
     .nav-bar {
         position: absolute;
         top: 0%;
-        left: 0%;
+        left: 100%;
         width: 100%;
         height: 100vh;
         background-color: rgba(255, 255, 255, 0.93);
@@ -67,11 +71,31 @@
         align-items: center;
         justify-content: center;
 
-        display: none;
+        transition: all 0.3s ease-in;
+
+        /* 1. Opacity:0 */
+        opacity: 0;
+        /* 2.Set mouse and keybiard events to none */
+        pointer-events: none;
+
+        /* 3. Hide element from screen reader  */
+        visibility: hidden;
+        
+        /* display: none; */
+
+        z-index: 10;
     }
 
     .open-nav .nav-bar {
-        display: flex;
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        left: 0%;
+    }
+
+    .open-nav button {
+        position: fixed;
+        z-index: 99999;
     }
 
     .open-nav ion-icon[name="close-outline"] {
@@ -80,6 +104,7 @@
 
     .open-nav ion-icon[name="menu-outline"] {
         display: none;
+        z-index: 99999;
     }
 
     .nav-bar .nav {
