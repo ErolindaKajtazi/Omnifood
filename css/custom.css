@@ -36,6 +36,19 @@
     color: #cf711f;
 }
 
+.mobile-nav {
+    border: none;
+    padding: 1.6rem;
+    background-color: transparent;
+}
+
+.mobile-nav .mobile-nav-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #333;
+}
+
+.mobile-nav-icon
 /*-------- Header End -------*/
 
 /* ------- HERO Start ---------*/

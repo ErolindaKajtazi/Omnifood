@@ -12,30 +12,37 @@
     
     <link rel="stylesheet" href="./css/general.css"/>
     <link rel="stylesheet" href="./css/custom.css">
-    <link rel="stylesheet" href="./css/meduaqueries.css">
+    <link rel="stylesheet" href="./css/mediaqueries.css">
     <title>OmniFood</title>
 </head>
 
 <body>
-  <header class="header">
-    <div class="logo">
-      <img src="content/img/omnifood-logo.png" alt="OmniFood Logo"/>
-    </div>
-    <div class="nav-bar">
-      <ul class="nav">
-        <li><a class="menu" href="#">How it works</a></li>
-        <li><a class="menu" href="#">Meals</a></li>
-        <li><a class="menu" href="#">Testimonials</a></li>
-        <li><a class="menu" href="#">Pricing</a></li>
-        <li><a class="btn btn-sm btn-primary" href="#">Try fo free</a></li>
-      </ul>
-    </div>
+  <header class="open-nav">
+      <div class="header">
+           <div class="logo">
+            <img src="content/img/omnifood-logo.png" alt="OmniFood Logo"/>
+          </div>
+          <div class="nav-bar">
+            <ul class="nav">
+              <li><a class="menu" href="#">How it works</a></li>
+              <li><a class="menu" href="#">Meals</a></li>
+              <li><a class="menu" href="#">Testimonials</a></li>
+              <li><a class="menu" href="#">Pricing</a></li>
+              <li><a class="btn btn-sm btn-primary" href="#">Try fo free</a></li>
+            </ul>
+          </div>
+      
+          <button class="mobile-nav">
+              <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+              <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+          </button>
+        </div>
   </header>
 
 
   <main>
         
-    <section class="hero-section pb-lg">
+    <section class="hero-section container pb-lg">
         <div class="hero">
             <div class="hero-description">
                 <h1 class="primary-header"> A healthy meal delivered to your door, every single day</h1>
@@ -124,12 +131,12 @@
                             </p>
                         </div>
                     </div>
-                    <div class="step-img">
+                    <div class="step-img img-1">
                         <img src="content/img/app/app-screen-1.png">
                     </div>
     
     
-                    <div class="step-img">
+                    <div class="step-img img-2">
                         <img src="./content/img/app/app-screen-2.png">
                     </div>
                     <div class="step-two-content">
@@ -156,7 +163,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="step-img">
+                    <div class="step-img img-3">
                         <img src="./content/img/app/app-screen-3.png">
                     </div>
     
@@ -326,7 +333,7 @@
                         </figure>
                     </div>
                 </div>
-                <div class="galery grid grid-3">
+                <div class="galery grid grid-3 grid-sm-6">
                     <div class="container-img">
                         <img src="./content/img/gallery/gallery-1.jpg" alt="Gallery 1"/>
                     </div>
@@ -509,7 +516,7 @@
 
 
     <footer class="footer mt-lg">
-        <div class="container grid grid-5">
+        <div class="container grid grid--footer">
           <div class="logo-col">
             <a href="#" class="logo">
               <img alt="Omnifood logo" src="./content/img/omnifood-logo.png" />
