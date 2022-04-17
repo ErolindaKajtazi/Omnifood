@@ -30,11 +30,6 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    width: 120rem;
-    margin: 0 auto;
-}
-
 .grid {
     display: grid;
     justify-items: center;
@@ -116,6 +111,9 @@ strong {
     background-color: #e67e22;
     color: white;
     
+}
+.btn-rotate {
+    transform: rotate(360deg);
 }
 
 .btn-primary:hover, .btn-primary:active {

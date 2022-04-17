@@ -40,6 +40,9 @@
     border: none;
     padding: 1.6rem;
     background-color: transparent;
+
+    cursor: pointer;
+    display: none;
 }
 
 .mobile-nav .mobile-nav-icon {
@@ -48,7 +51,10 @@
     color: #333;
 }
 
-.mobile-nav-icon
+.mobile-nav-icon[name="close-outline"]
+{
+    display: none;
+}
 /*-------- Header End -------*/
 
 /* ------- HERO Start ---------*/
